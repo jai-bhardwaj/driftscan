@@ -1,0 +1,15 @@
+[project]
+name = "driftscan"
+version = "0.1.0"
+description = "Find out whether two data stores actually agree, without reading both in full, and without reporting a verdict it has not earned."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["driftscan"]
